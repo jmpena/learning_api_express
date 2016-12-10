@@ -3,7 +3,7 @@ var app = express();
 var Persona = require('./persona.js');
 
 app.get('/', function (req, res) {
-    var persona = new Persona('Jose', 'Pena Jeres');
+    var persona = new Persona('Jose', 'Pena Jerez');
     console.log(persona.nombreCompleto());
 
    res.send('Hello World');
